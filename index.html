@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box factory</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+  <link rel="stylesheet" href="./source/css/style.css" media="all">
+  <script src="./source/js/index.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>Shape Factory</h1>
+        
+        <div class="selections">
+          <select class="pick-color">
+            <option value="#09f">Blue</option>
+            <option value="#9f0">Green</option>
+            <option value="#f90">Orange</option>
+            <option value="#90f">Purple</option>
+          </select>
+          <select class="pick-shape">
+            <option value="circle">Circle</option>
+            <option value="square">Square</option>
+          </select>
+          <button class="create" onclick="createShape()">Create</button>
+        </div>
+
+        <div class="shape-box">
+          <div class="box-grid">
+          </div>
+        </div>
+      </div>
+
+      <div class="display-type">
+        <p class="box-atribute"></p>
+      </div>
+    </main>
+  </body>
+</html>
