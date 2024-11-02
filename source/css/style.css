@@ -48,11 +48,6 @@ main {
   border-radius: 50px;
 }
 
-.display-type {
-  display: flex;
-  justify-content: center;
-}
-
 select {
   width: 75px;
   height: 30px;
@@ -67,4 +62,13 @@ button {
   border-radius: 10px;
   margin-left: 20px;
   background-color: #00ffa28c;
+}
+
+.display-type {
+  display: flex;
+  justify-content: center;
+}
+
+.box-atribute {
+  height: 22px;
 }
