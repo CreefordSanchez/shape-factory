@@ -8,6 +8,7 @@
 
 select, button {
   cursor: pointer;
+  appearance: none;
 }
 
 html {
